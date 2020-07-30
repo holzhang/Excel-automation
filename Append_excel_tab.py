@@ -4,7 +4,7 @@ from openpyxl import load_workbook
 import os
 
 ## append excel tab without change the previous one
-# script is in another tab
+# script is in another folder
 # test excel is aaa.xlsx, under the Archive File folder
 
 path = os.path.abspath(os.path.join(os.getcwd(),'..'))
